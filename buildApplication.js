@@ -1,7 +1,7 @@
 const { exec } = require("child_process");
 const location = process.argv.slice(2).join("");
 
-const url = `https://music.apple.com/${location}/browse`;
+const url = `https://music.apple.com/${location}/`;
 const appName = "apple-music-electron";
 
 const command = `nativefier --name '${appName}' --lang 'da-DK' '${url}'`;

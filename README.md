@@ -1,5 +1,7 @@
 ## Installation
 
+### LOCATION DOES NOT WORK AT THE MOMENT AND ONLY WORKS FOR US BASED ACCOUNTS. _23/11: Currently looking into finding a fix_ 
+
 1. Ensure you have node installed.
 2. Run npm install
 3. Run `npm run build-application` pass your region/language to the script if you want to target a specific country e.g.: `npm run build-application en-US` or `npm run build-application dk`

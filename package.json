@@ -1,0 +1,12 @@
+{
+  "name": "electronapplemusic",
+  "version": "1.0.0",
+  "description": "Simple wrapper to create an electron app for the apple music web browser, primarily made for linux as native apple music apps are found on Windows and OSX",
+  "main": "index.js",
+  "scripts": {
+    "build-application": "node buildApplication.js",
+    "create-shortcut": "node createShortcut.js"
+  },
+  "author": "Bernold",
+  "license": "ISC"
+}
